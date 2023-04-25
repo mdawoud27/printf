@@ -7,14 +7,16 @@
  */
 int _print_str(char *str)
 {
-        int len = 0;
+int len = 0;
 
-        while (*str != '\0')
+while (*str != '\0')
         {
-                _print_char(*str);
-                str++;
-                len++;
+           _print_char(*str);
+           str++;
+	   len++;
         }
-
+	
         return (len);
 }
+
+
