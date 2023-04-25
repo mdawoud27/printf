@@ -26,10 +26,6 @@ int set_flag(char flag_specifier, flags_t *flags)
 			flags->hash = 1;
 			flag_set = 1;
 			break;
-		case '-':
-			flags->minus = 1;
-			flag_set = 1;
-			break;
 	}
 
 	return (flag_set);

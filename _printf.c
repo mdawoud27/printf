@@ -10,7 +10,7 @@ int _printf(const char *format, ...)
 	int (*ptr_func)(va_list, flags_t *);
 	const char *ptr;
 	va_list list;
-	flags_t flags = {0, 0, 0, 0};
+	flags_t flags = {0, 0, 0};
 	int count = 0;
 
 	va_start(list, format);
